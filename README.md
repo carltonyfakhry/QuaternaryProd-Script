@@ -15,9 +15,9 @@ the Vignette for *QuaternaryProd* using the following:
 browseVignettes("QuaternaryProd")
 ```
 ## Running the script
-To execute the script over the e2f3_sig dataset, run the following in your terminal:
+First, you need to install the *fdrtool* R package. To execute the script over the *e2f3_sig* dataset, run the following in your terminal:
 
 *Rscript cre4_run.R ./string.ents ./string.rels ./e2f3_sig.txt ./e2f3_sig_output.txt*
 
-The results will be outputed to *e2f3_sig_output.txt*.
+The results will be outputed to *e2f3_sig_output.txt*. The same script can be executed with the other data sets *myc_sig* and *ras_sig*.
 
