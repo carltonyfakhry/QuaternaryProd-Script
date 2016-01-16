@@ -9,12 +9,15 @@ library(devtools)
 install_github("carltonyfakhry/QuaternaryProd", build_vignettes = TRUE, local = FALSE)
 ```
 ## Usage
-For an introduction to the Quaternary Product Scoring Statistic and for an example on how to compute it over the publicly available network *Stringdb*, please see 
-the *Vignette* for this package using the following:
+For an introduction to the Quaternary Product Scoring Statistic, please see 
+the Vignette for *QuaternaryProd* using the following:
 ```{R}
 browseVignettes("QuaternaryProd")
 ```
 ## Running the script
-To run the script over the e2f3_sig dataset run the following in your terminal:
+To execute the script over the e2f3_sig dataset, run the following in your terminal:
 
-Rscript cre4_run.R ./string.ents ./string.rels ./e2f3_sig.txt ./e2f3_sig_output.txt
+*Rscript cre4_run.R ./string.ents ./string.rels ./e2f3_sig.txt ./e2f3_sig_output.txt*
+
+The results will be outputed to *e2f3_sig_output.txt*.
+
